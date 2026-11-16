@@ -8,15 +8,11 @@
 
 <br><br>
 
-<a href="https://github.com/sungminflut/breeze-releases/releases/latest">
-  <img src="https://img.shields.io/github/v/release/sungminflut/breeze-releases?style=flat-square&label=Latest%20Release&color=2563eb" alt="Latest Release">
-</a>
-<a href="https://github.com/sungminflut/breeze-releases/releases">
-  <img src="https://img.shields.io/github/downloads/sungminflut/breeze-releases/total?style=flat-square&label=Downloads&color=0f766e" alt="Total Downloads">
-</a>
-<a href="#바로-내려받기">
-  <img src="https://img.shields.io/badge/Platforms-macOS%20%C2%B7%20Windows%20%C2%B7%20Android%20%C2%B7%20Chrome-1f2937?style=flat-square" alt="Platforms">
-</a>
+<p>
+  <a href="https://github.com/sungminflut/breeze-releases/releases/latest"><img src="https://img.shields.io/github/v/release/sungminflut/breeze-releases?style=flat-square&label=Latest%20Release&color=2563eb" alt="Latest Release"></a>
+  <a href="https://github.com/sungminflut/breeze-releases/releases"><img src="https://img.shields.io/github/downloads/sungminflut/breeze-releases/total?style=flat-square&label=Downloads&color=0f766e" alt="Total Downloads"></a>
+  <a href="#바로-내려받기"><img src="https://img.shields.io/badge/Platforms-macOS%20%C2%B7%20Windows%20%C2%B7%20Android%20%C2%B7%20Chrome-1f2937?style=flat-square" alt="Platforms"></a>
+</p>
 
 <p>
   <strong>웹 영상 실시간 음성 인식 한국어 자막 &amp; 전용 플레이어 브라우저</strong><br>
@@ -47,14 +43,10 @@
 
 ## 주요 기능
 
-- **실시간 음성 인식 한국어 자막**
-  자막 파일이 없는 영상이나 해외 생방송도 오디오를 실시간으로 인식해 한국어 자막을 띄웁니다. **원어 고정**(`자동 · 일본어 · 영어 · 한국어`), **글자 크기**, **위치**(`영상 안 · 아래 · 위`), **배경**, **원문 같이 보기**를 시청 중에 바로 바꿀 수 있습니다.
-- **100% 자체 Breeze 플레이어**
-  사이트마다 제각각인 플레이어 대신 깔끔한 전용 플레이어에서 `HLS · DASH · MP4/WebM · 라이브 스트림`을 재생합니다. 재생 속도(`0.25x–4x`), 화질·오디오 트랙 전환, **항상 위(PiP)** 미니 창, **이어 보기**를 지원합니다.
-- **원클릭 인앱 업데이트**
-  새 버전이 나오면 브라우저를 다시 찾을 필요 없이 **사이드바 → 계정 → `업데이트 확인`** 한 번으로 최신 버전을 설치합니다. 시청 기록과 북마크, 이어 보기 위치는 그대로 유지됩니다.
-- **프라이버시 우선 설계**
-  시크릿 창을 닫으면 해당 세션의 쿠키·스토리지·캐시를 즉시 비우며, 자막 생성용 오디오는 실시간 처리 후 서버에 보관하지 않습니다. 크래시 로그도 기기 밖으로 전송하지 않습니다.
+- **실시간 음성 인식 한국어 자막** — 자막 파일이 없는 영상이나 해외 생방송도 오디오를 실시간으로 인식해 한국어 자막을 띄웁니다. **원어 고정**(`자동 · 일본어 · 영어 · 한국어`), **글자 크기**, **위치**(`영상 안 · 아래 · 위`), **배경**, **원문 같이 보기**를 시청 중에 바로 바꿀 수 있습니다.
+- **100% 자체 Breeze 플레이어** — 사이트마다 제각각인 플레이어 대신 깔끔한 전용 플레이어에서 `HLS · DASH · MP4/WebM · 라이브 스트림`을 재생합니다. 재생 속도(`0.25x–4x`), 화질·오디오 트랙 전환, **항상 위(PiP)** 미니 창, **이어 보기**를 지원합니다.
+- **원클릭 인앱 업데이트** — 새 버전이 나오면 브라우저를 다시 찾을 필요 없이 **사이드바 → 계정 → `업데이트 확인`** 한 번으로 최신 버전을 설치합니다. 시청 기록과 북마크, 이어 보기 위치는 그대로 유지됩니다.
+- **프라이버시 우선 설계** — 시크릿 창을 닫으면 해당 세션의 쿠키·스토리지·캐시를 즉시 비우며, 자막 생성용 오디오는 실시간 처리 후 서버에 보관하지 않습니다. 크래시 로그도 기기 밖으로 전송하지 않습니다.
 
 ---
 
