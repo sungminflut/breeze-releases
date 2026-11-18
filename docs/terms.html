@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>이용약관 — Breeze</title>
+  <style>:root {
+  color-scheme: light dark;
+  --bg: #ffffff;
+  --fg: #111827;
+  --muted: #4b5563;
+  --card: #f9fafb;
+  --border: #e5e7eb;
+  --accent: #2563eb;
+  --accent-fg: #ffffff;
+  --warn-bg: #fffbeb;
+  --warn-border: #fde68a;
+  --warn-fg: #92400e;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0b0f17;
+    --fg: #f3f4f6;
+    --muted: #9ca3af;
+    --card: #131a26;
+    --border: #243044;
+    --accent: #3b82f6;
+    --accent-fg: #ffffff;
+    --warn-bg: #261d09;
+    --warn-border: #785610;
+    --warn-fg: #fcd34d;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", "Segoe UI", Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--fg);
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.wrap { max-width: 880px; margin: 0 auto; padding: 24px 20px 64px; }
+header.top {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+  gap: 12px; padding: 12px 0 28px; border-bottom: 1px solid var(--border); margin-bottom: 32px;
+}
+.brand { font-size: 1.25rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; }
+.badge {
+  display: inline-block; font-size: 0.75rem; font-weight: 600; padding: 2px 8px;
+  border-radius: 999px; background: var(--card); border: 1px solid var(--border); color: var(--muted);
+  margin-left: 8px; vertical-align: middle;
+}
+nav.links { display: flex; flex-wrap: wrap; gap: 16px; font-size: 0.92rem; }
+h1 { font-size: clamp(1.75rem, 3.5vw, 2.35rem); line-height: 1.25; margin: 0 0 12px; letter-spacing: -0.025em; }
+h2 { font-size: 1.3rem; margin: 36px 0 12px; letter-spacing: -0.015em; }
+h3 { font-size: 1.05rem; margin: 20px 0 8px; }
+p.lead { font-size: 1.05rem; color: var(--muted); margin: 0 0 20px; }
+.cta-row { display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0 28px; }
+.btn {
+  display: inline-block; padding: 11px 18px; border-radius: 10px; font-weight: 600; font-size: 0.95rem;
+  border: 1px solid var(--border); background: var(--card); color: var(--fg);
+}
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-fg); }
+.hero-img { width: 100%; border-radius: 14px; border: 1px solid var(--border); display: block; margin-bottom: 32px; }
+.note {
+  background: var(--warn-bg); border: 1px solid var(--warn-border); color: var(--warn-fg);
+  border-radius: 10px; padding: 14px 16px; font-size: 0.92rem; margin: 16px 0 24px;
+}
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; margin: 16px 0 28px; }
+.card {
+  background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 16px;
+}
+.card h3 { margin-top: 0; }
+table { width: 100%; border-collapse: collapse; margin: 12px 0 24px; font-size: 0.94rem; }
+th, td { text-align: left; padding: 11px 10px; border-bottom: 1px solid var(--border); }
+th { color: var(--muted); font-weight: 600; }
+ul, ol { padding-left: 20px; }
+li { margin: 6px 0; }
+footer {
+  margin-top: 56px; padding-top: 24px; border-top: 1px solid var(--border);
+  font-size: 0.88rem; color: var(--muted); display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px;
+}</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div><a class="brand" href="./">Breeze</a><span class="badge">Terms of Service</span></div>
+      <nav class="links">
+        <a href="./">홈</a>
+        <a href="./privacy.html">개인정보처리방침</a>
+        <a href="https://breeze-proxy-784145512042.us-central1.run.app/account/delete">계정 삭제</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Breeze 이용약관 (오픈 베타)</h1>
+      <p class="lead">시행일: 2026년 11월 18일 · 운영: Pierrot Company, Inc. (피에로컴퍼니)</p>
+
+      <h2>1. 목적</h2>
+      <p>
+        본 약관은 Pierrot Company, Inc.(이하 “운영자”)가 제공하는 Breeze 브라우저, Chrome 확장 프로그램 및 웹 서비스(이하 “Breeze”)의 이용 조건과 운영자 및 이용자의 권리·의무를 규정합니다.
+      </p>
+
+      <h2>2. 서비스 내용 및 무료 이용 한도</h2>
+      <ul>
+        <li>Breeze는 이용자가 접속한 웹페이지의 영상에 대해 실시간 음성 인식 또는 자막 파일 기반 한국어 번역 자막을 표시하고 전용 플레이어 재생을 보조하는 오픈 베타 서비스입니다.</li>
+        <li>자막 생성 기능을 이용하려면 Google 계정 로그인이 필요하며, 기본 무료 이용 한도는 <strong>계정당 1일 15분(한국 시각 00:00 기준 초기화)</strong>입니다.</li>
+        <li>동일한 영상의 동일 구간을 다시 재생할 때는 중복 차감을 방지하되, 운영자는 서비스 안정성과 비용 보호를 위해 동시 접속 세션 수, 일일 전체 사용량 상한, 계정별 한도 조정 또는 긴급 일시 중단을 적용할 수 있습니다.</li>
+      </ul>
+
+      <h2>3. 지원 제외 및 베타 서비스 특성</h2>
+      <ul>
+        <li>상용 DRM(Widevine, FairPlay, PlayReady 등)이 적용된 영상과 YouTube 등 일부 플랫폼은 자체 플레이어 지원에서 제외되며, 가능한 경우에 한해 원래 화면 위 자막만 제공될 수 있습니다.</li>
+        <li>AI 기반 음성 인식 및 번역 특성상 오탈자·오역·지연이 발생할 수 있으며, 서비스의 정확성이나 무중단을 보증하지 않습니다.</li>
+        <li>오픈 베타 기간 중 사전 예고 없이 기능이 변경·중단되거나 동시 이용자가 제한될 수 있습니다.</li>
+      </ul>
+
+      <h2>4. 이용자의 의무 및 저작권</h2>
+      <ul>
+        <li>Breeze는 이용자 기기에서 제3자 웹사이트를 열람·재생하고 번역 자막을 덧붙이는 도구이며, 제3자 콘텐츠를 저장·배포·판매하지 않습니다.</li>
+        <li>이용자는 자신이 접속·시청하는 제3자 웹사이트의 이용약관, 저작권법 및 관련 법령을 준수해야 하며, 비정상적인 자동화 요청·계정 우회·서버 부하 유발 행위를 해서는 안 됩니다.</li>
+        <li>운영자는 악용 또는 서비스 장애 방지를 위해 사전 통지 없이 특정 계정의 자막 이용을 제한할 수 있습니다.</li>
+      </ul>
+
+      <h2>5. 계정 해지 및 문의</h2>
+      <p>
+        이용자는 언제든지 앱 내 계정 화면 또는 <a href="https://breeze-proxy-784145512042.us-central1.run.app/account/delete">웹 계정 삭제 페이지</a>에서 직접 계정을 삭제하여 이용을 종료할 수 있습니다.
+        서비스 문의는 <a href="mailto:sungmin.park@pierrot.company">sungmin.park@pierrot.company</a> 또는
+        <a href="https://github.com/sungminflut/breeze-releases/issues/new">GitHub Issues</a>를 이용해 주세요.
+      </p>
+    </main>
+
+    <footer>
+      <span>© 2026 Pierrot Company, Inc.</span>
+      <span><a href="./">Breeze 홈</a> · <a href="./privacy.html">개인정보처리방침</a></span>
+    </footer>
+  </div>
+</body>
+</html>

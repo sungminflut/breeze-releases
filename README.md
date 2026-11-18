@@ -16,6 +16,8 @@
 
 <p>
   <strong>웹 영상 실시간 음성 인식 한국어 자막 &amp; 전용 플레이어 브라우저</strong><br>
+  <a href="https://sungminflut.github.io/breeze-releases/">공식 안내 페이지</a> ·
+  <a href="https://breeze-proxy-784145512042.us-central1.run.app/">웹 플레이어 열기</a> ·
   <a href="https://github.com/sungminflut/breeze-releases/releases/latest">최신 릴리스 노트</a> ·
   <a href="#설치-및-실행-안내">설치 가이드</a> ·
   <a href="https://github.com/sungminflut/breeze-releases/issues/new">문제 제보 (Issues)</a>
@@ -35,9 +37,11 @@
 | **Windows (x64)** | Windows 10 / 11 64-bit | [**Breeze-win-x64.exe**](https://github.com/sungminflut/breeze-releases/releases/latest/download/Breeze-win-x64.exe) | `106 MB` |
 | **Windows (ARM64)** | Snapdragon / ARM 기반 Windows PC | [**Breeze-win-arm64.exe**](https://github.com/sungminflut/breeze-releases/releases/latest/download/Breeze-win-arm64.exe) | `101 MB` |
 | **Android** | Android 10 이상 (`API 29+`) | [**breeze.apk**](https://github.com/sungminflut/breeze-releases/releases/latest/download/breeze.apk) | `14.9 MB` |
-| **Chrome 확장** | Chrome 116+ / Chromium 브라우저 | [**breeze-extension-0.1.0.zip**](https://github.com/sungminflut/breeze-releases/releases/latest/download/breeze-extension-0.1.0.zip) | `300 KB` |
+| **Chrome 확장** | Chrome 116+ / Chromium 브라우저 | [**breeze-extension-0.1.0.zip**](https://github.com/sungminflut/breeze-releases/releases/latest/download/breeze-extension-0.1.0.zip) | `308 KB` |
+| **웹 플레이어** | 설치 없이 브라우저에서 바로 실행 | [**breeze-proxy (Web)**](https://breeze-proxy-784145512042.us-central1.run.app/) | `—` |
 
-> 버전별 변경 이력과 SHA-256 체크섬은 [**Releases**](https://github.com/sungminflut/breeze-releases/releases)에서 확인할 수 있습니다.
+> 버전별 변경 이력과 SHA-256 체크섬은 [**Releases**](https://github.com/sungminflut/breeze-releases/releases)에서 확인할 수 있습니다.  
+> **이용 안내 (오픈 베타)**: Google 계정으로 로그인하면 **하루 15분까지 무료**(한국 시각 00:00 초기화)로 자막을 켤 수 있습니다. 상용 DRM(Widevine 등) 및 YouTube 영상은 자체 플레이어에서 제외되며 원래 화면 위 자막으로 안내됩니다.
 
 ---
 
@@ -46,7 +50,7 @@
 - **실시간 음성 인식 한국어 자막** — 자막 파일이 없는 영상이나 해외 생방송도 오디오를 실시간으로 인식해 한국어 자막을 띄웁니다. **원어 고정**(`자동 · 일본어 · 영어 · 한국어`), **글자 크기**, **위치**(`영상 안 · 아래 · 위`), **배경**, **원문 같이 보기**를 시청 중에 바로 바꿀 수 있습니다.
 - **100% 자체 Breeze 플레이어** — 사이트마다 제각각인 플레이어 대신 깔끔한 전용 플레이어에서 `HLS · DASH · MP4/WebM · 라이브 스트림`을 재생합니다. 재생 속도(`0.25x–4x`), 화질·오디오 트랙 전환, **항상 위(PiP)** 미니 창, **이어 보기**를 지원합니다.
 - **원클릭 인앱 업데이트** — 새 버전이 나오면 브라우저를 다시 찾을 필요 없이 **사이드바 → 계정 → `업데이트 확인`** 한 번으로 최신 버전을 설치합니다. 시청 기록과 북마크, 이어 보기 위치는 그대로 유지됩니다.
-- **프라이버시 우선 설계** — 시크릿 창을 닫으면 해당 세션의 쿠키·스토리지·캐시를 즉시 비우며, 자막 생성용 오디오는 실시간 처리 후 서버에 보관하지 않습니다. 크래시 로그도 기기 밖으로 전송하지 않습니다.
+- **프라이버시 우선 설계** — 시크릿 창을 닫으면 해당 세션의 쿠키·스토리지·캐시를 즉시 비우며, 방문 URL·오디오·자막은 서버에 보관하지 않습니다. 크래시 로그도 기기 밖으로 전송하지 않습니다.
 
 ---
 
@@ -75,9 +79,10 @@ Breeze는 별도 유료 코드 서명 없이 개인 개발자 서명으로 배�
 
 ---
 
-## 문제 제보
+## 정책 · 계정 삭제 · 문제 제보
 
-재생되지 않는 사이트나 자막 오류, 설치 문제가 있다면 [**GitHub Issues**](https://github.com/sungminflut/breeze-releases/issues/new)에 **OS · 앱 버전 · 문제가 발생한 페이지 주소**를 남겨 주세요.
+- [**개인정보처리방침**](https://sungminflut.github.io/breeze-releases/privacy.html) · [**이용약관**](https://sungminflut.github.io/breeze-releases/terms.html) · [**웹 계정 삭제 페이지**](https://breeze-proxy-784145512042.us-central1.run.app/account/delete)
+- 재생되지 않는 사이트나 자막 오류, 설치 문제가 있다면 [**GitHub Issues**](https://github.com/sungminflut/breeze-releases/issues/new)에 **OS · 앱 버전 · 문제가 발생한 페이지 주소**를 남겨 주세요.
 
 <br>
 
@@ -86,7 +91,7 @@ Breeze는 별도 유료 코드 서명 없이 개인 개발자 서명으로 배�
 
 ### About Breeze
 **Breeze** is a media-first browser and extension with **real-time Korean AI captions** and a **unified native video player** (`HLS`, `DASH`, `MP4/WebM`, and live streams).
-It extracts or captures streams cleanly into Breeze's own player (`0.25x–4x` speed, track/quality selector, Always-on-Top PiP, resume history, incognito isolation) and generates real-time Korean subtitles with optional original-language dual captions (`Auto · JA · EN · KO`).
+Sign in with Google for **15 minutes/day free** captions (resets at 00:00 KST). DRM-protected streams and YouTube stay on their original page player with overlay captions.
 
 ### Downloads (Latest Release)
 
@@ -97,11 +102,9 @@ It extracts or captures streams cleanly into Breeze's own player (`0.25x–4x` s
 | Windows | ARM64 | [Breeze-win-arm64.exe](https://github.com/sungminflut/breeze-releases/releases/latest/download/Breeze-win-arm64.exe) |
 | Android | Android 10+ (API 29+) | [breeze.apk](https://github.com/sungminflut/breeze-releases/releases/latest/download/breeze.apk) |
 | Chrome | Manifest V3 (Chrome 116+) | [breeze-extension-0.1.0.zip](https://github.com/sungminflut/breeze-releases/releases/latest/download/breeze-extension-0.1.0.zip) |
+| Web | Browser SPA | [https://breeze-proxy-784145512042.us-central1.run.app/](https://breeze-proxy-784145512042.us-central1.run.app/) |
 
-### First-Launch Notes
-- **macOS (ad-hoc signed):** Drag `Breeze.app` into `/Applications`. On first launch, go to **System Settings → Privacy & Security → Open Anyway**. In-app updates via **Sidebar → Account → Check for updates** require `Breeze.app` to reside in `/Applications`.
-- **Windows (unsigned NSIS):** Click **More info → Run anyway** on the Windows SmartScreen prompt. Installs per-user without admin privileges.
-- **Android:** Enable **Install unknown apps** for your browser/file manager when opening `breeze.apk`.
-- **Chrome Extension:** Unzip and load unpacked from `chrome://extensions` with **Developer mode** enabled.
+### Policy &amp; Support
+- [Homepage](https://sungminflut.github.io/breeze-releases/) · [Privacy Policy](https://sungminflut.github.io/breeze-releases/privacy.html) · [Terms of Service](https://sungminflut.github.io/breeze-releases/terms.html) · [Account Deletion](https://breeze-proxy-784145512042.us-central1.run.app/account/delete)
 
 </details>
