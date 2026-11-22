@@ -36,8 +36,8 @@
 | **macOS** | Apple Silicon (M1–M4) · Intel (`Universal`) | [**Breeze-mac-universal.dmg**](https://github.com/sungminflut/breeze-releases/releases/latest/download/Breeze-mac-universal.dmg) | `217 MB` |
 | **Windows (x64)** | Windows 10 / 11 64-bit | [**Breeze-win-x64.exe**](https://github.com/sungminflut/breeze-releases/releases/latest/download/Breeze-win-x64.exe) | `111 MB` |
 | **Windows (ARM64)** | Snapdragon / ARM 기반 Windows PC | [**Breeze-win-arm64.exe**](https://github.com/sungminflut/breeze-releases/releases/latest/download/Breeze-win-arm64.exe) | `104 MB` |
-| **Android** | Android 10 이상 (`API 29+`) | [**breeze.apk**](https://github.com/sungminflut/breeze-releases/releases/latest/download/breeze.apk) | `8.9 MB` |
-| **Chrome 확장** | Chrome 116+ / Chromium 브라우저 | [**breeze-extension-0.1.0.zip**](https://github.com/sungminflut/breeze-releases/releases/latest/download/breeze-extension-0.1.0.zip) | `378 KB` |
+| **Android** | Android 10 이상 (`API 29+`) | [**breeze.apk**](https://github.com/sungminflut/breeze-releases/releases/latest/download/breeze.apk) | `9.3 MB` |
+| **Chrome 확장** | Chrome 116+ / Chromium 브라우저 | [**breeze-extension-0.1.0.zip**](https://github.com/sungminflut/breeze-releases/releases/latest/download/breeze-extension-0.1.0.zip) | `397 KB` |
 | **웹 플레이어** | 설치 없이 브라우저에서 바로 실행 | [**breeze-proxy (Web)**](https://breeze-proxy-784145512042.us-central1.run.app/) | `—` |
 
 > 버전별 변경 이력과 SHA-256 체크섬은 [**Releases**](https://github.com/sungminflut/breeze-releases/releases)에서 확인할 수 있습니다.  
