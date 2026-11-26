@@ -11,7 +11,7 @@
 <p>
   <a href="https://github.com/sungminflut/breeze-releases/releases/latest"><img src="https://img.shields.io/github/v/release/sungminflut/breeze-releases?style=flat-square&label=Latest%20Release&color=2563eb" alt="Latest Release"></a>
   <a href="https://github.com/sungminflut/breeze-releases/releases"><img src="https://img.shields.io/github/downloads/sungminflut/breeze-releases/total?style=flat-square&label=Downloads&color=0f766e" alt="Total Downloads"></a>
-  <a href="#바로-내려받기"><img src="https://img.shields.io/badge/Platforms-macOS%20%C2%B7%20Windows%20%C2%B7%20Android%20%C2%B7%20Chrome-1f2937?style=flat-square" alt="Platforms"></a>
+  <a href="#바로-내려받기"><img src="https://img.shields.io/badge/Platforms-macOS%20%C2%B7%20Windows%20%C2%B7%20Android-1f2937?style=flat-square" alt="Platforms"></a>
 </p>
 
 <p>
@@ -33,11 +33,10 @@
 
 | 플랫폼 | 지원 환경 | 내려받기 | 용량 |
 | :--- | :--- | :--- | :---: |
-| **macOS** | Apple Silicon (M1–M4) · Intel (`Universal`) | [**Breeze-mac-universal.dmg**](https://github.com/sungminflut/breeze-releases/releases/latest/download/Breeze-mac-universal.dmg) | `217 MB` |
-| **Windows (x64)** | Windows 10 / 11 64-bit | [**Breeze-win-x64.exe**](https://github.com/sungminflut/breeze-releases/releases/latest/download/Breeze-win-x64.exe) | `111 MB` |
-| **Windows (ARM64)** | Snapdragon / ARM 기반 Windows PC | [**Breeze-win-arm64.exe**](https://github.com/sungminflut/breeze-releases/releases/latest/download/Breeze-win-arm64.exe) | `104 MB` |
-| **Android** | Android 10 이상 (`API 29+`) | [**breeze.apk**](https://github.com/sungminflut/breeze-releases/releases/latest/download/breeze.apk) | `9.3 MB` |
-| **Chrome 확장** | Chrome 116+ / Chromium 브라우저 | [**breeze-extension-0.1.0.zip**](https://github.com/sungminflut/breeze-releases/releases/latest/download/breeze-extension-0.1.0.zip) | `397 KB` |
+| **macOS** | Apple Silicon (M1–M4) · Intel (`Universal`) | [**Breeze-mac-universal.dmg**](https://github.com/sungminflut/breeze-releases/releases/latest/download/Breeze-mac-universal.dmg) | `218 MB` |
+| **Windows (x64)** | Windows 10 / 11 64-bit | [**Breeze-win-x64.exe**](https://github.com/sungminflut/breeze-releases/releases/latest/download/Breeze-win-x64.exe) | `120 MB` |
+| **Windows (ARM64)** | Snapdragon / ARM 기반 Windows PC | [**Breeze-win-arm64.exe**](https://github.com/sungminflut/breeze-releases/releases/latest/download/Breeze-win-arm64.exe) | `115 MB` |
+| **Android** | Android 10 이상 (`API 29+`) | [**breeze.apk**](https://github.com/sungminflut/breeze-releases/releases/latest/download/breeze.apk) | `10.4 MB` |
 | **웹 플레이어** | 설치 없이 브라우저에서 바로 실행 | [**breeze-proxy (Web)**](https://breeze-proxy-784145512042.us-central1.run.app/) | `—` |
 
 > 버전별 변경 이력과 SHA-256 체크섬은 [**Releases**](https://github.com/sungminflut/breeze-releases/releases)에서 확인할 수 있습니다.  
@@ -71,12 +70,6 @@ Breeze는 별도 유료 코드 서명 없이 개인 개발자 서명으로 배�
 ### Android (`APK`)
 - `breeze.apk`를 연 뒤 시스템 안내에 따라 ***"이 출처 허용(출처를 알 수 없는 앱 설치)"*** 을 켜서 설치합니다. 이후 새 버전이 나오면 앱 내 **`계정 → 업데이트 확인`** 으로 바로 설치할 수 있습니다.
 
-### Chrome 확장 프로그램 (`선택 사항`)
-기존 Chrome 브라우저의 탭에서도 Breeze 자막을 띄우고 싶을 때 사용합니다.
-1. `breeze-extension-0.1.0.zip`의 압축을 풉니다.
-2. Chrome 주소창에 `chrome://extensions` 를 열어 오른쪽 위 **개발자 모드**를 켭니다.
-3. **`압축해제된 확장 프로그램을 로드합니다`** 를 클릭해 압축을 푼 폴더를 선택합니다.
-
 ---
 
 ## 정책 · 계정 삭제 · 문제 제보
@@ -90,7 +83,7 @@ Breeze는 별도 유료 코드 서명 없이 개인 개발자 서명으로 배�
 <summary><strong>English Overview &amp; Quick Downloads</strong></summary>
 
 ### About Breeze
-**Breeze** is a media-first browser and extension with **real-time Korean AI captions** and a **unified native video player** (`HLS`, `DASH`, `MP4/WebM`, and live streams).
+**Breeze** is a media-first browser with **real-time Korean AI captions** and a **unified native video player** (`HLS`, `DASH`, `MP4/WebM`, and live streams).
 Sign in with Google for **15 minutes/day free** captions (resets at 00:00 KST). DRM-protected streams and YouTube stay on their original page player with overlay captions.
 
 ### Downloads (Latest Release)
@@ -101,7 +94,6 @@ Sign in with Google for **15 minutes/day free** captions (resets at 00:00 KST). 
 | Windows | x64 (Windows 10/11) | [Breeze-win-x64.exe](https://github.com/sungminflut/breeze-releases/releases/latest/download/Breeze-win-x64.exe) |
 | Windows | ARM64 | [Breeze-win-arm64.exe](https://github.com/sungminflut/breeze-releases/releases/latest/download/Breeze-win-arm64.exe) |
 | Android | Android 10+ (API 29+) | [breeze.apk](https://github.com/sungminflut/breeze-releases/releases/latest/download/breeze.apk) |
-| Chrome | Manifest V3 (Chrome 116+) | [breeze-extension-0.1.0.zip](https://github.com/sungminflut/breeze-releases/releases/latest/download/breeze-extension-0.1.0.zip) |
 | Web | Browser SPA | [https://breeze-proxy-784145512042.us-central1.run.app/](https://breeze-proxy-784145512042.us-central1.run.app/) |
 
 ### Policy &amp; Support
