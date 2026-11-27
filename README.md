@@ -17,7 +17,6 @@
 <p>
   <strong>웹 영상 실시간 음성 인식 한국어 자막 &amp; 전용 플레이어 브라우저</strong><br>
   <a href="https://sungminflut.github.io/breeze-releases/">공식 안내 페이지</a> ·
-  <a href="https://breeze-proxy-784145512042.us-central1.run.app/">웹 플레이어 열기</a> ·
   <a href="https://github.com/sungminflut/breeze-releases/releases/latest">최신 릴리스 노트</a> ·
   <a href="#설치-및-실행-안내">설치 가이드</a> ·
   <a href="https://github.com/sungminflut/breeze-releases/issues/new">문제 제보 (Issues)</a>
@@ -37,7 +36,6 @@
 | **Windows (x64)** | Windows 10 / 11 64-bit | [**Breeze-win-x64.exe**](https://github.com/sungminflut/breeze-releases/releases/latest/download/Breeze-win-x64.exe) | `120 MB` |
 | **Windows (ARM64)** | Snapdragon / ARM 기반 Windows PC | [**Breeze-win-arm64.exe**](https://github.com/sungminflut/breeze-releases/releases/latest/download/Breeze-win-arm64.exe) | `115 MB` |
 | **Android** | Android 10 이상 (`API 29+`) | [**breeze.apk**](https://github.com/sungminflut/breeze-releases/releases/latest/download/breeze.apk) | `10.4 MB` |
-| **웹 플레이어** | 설치 없이 브라우저에서 바로 실행 | [**breeze-proxy (Web)**](https://breeze-proxy-784145512042.us-central1.run.app/) | `—` |
 
 > 버전별 변경 이력과 SHA-256 체크섬은 [**Releases**](https://github.com/sungminflut/breeze-releases/releases)에서 확인할 수 있습니다.  
 > **이용 안내 (오픈 베타)**: Google 계정으로 로그인하면 **하루 15분까지 무료**(한국 시각 00:00 초기화)로 자막을 켤 수 있습니다. 상용 DRM(Widevine 등) 및 YouTube 영상은 자체 플레이어에서 제외되며 원래 화면 위 자막으로 안내됩니다.
@@ -94,7 +92,6 @@ Sign in with Google for **15 minutes/day free** captions (resets at 00:00 KST). 
 | Windows | x64 (Windows 10/11) | [Breeze-win-x64.exe](https://github.com/sungminflut/breeze-releases/releases/latest/download/Breeze-win-x64.exe) |
 | Windows | ARM64 | [Breeze-win-arm64.exe](https://github.com/sungminflut/breeze-releases/releases/latest/download/Breeze-win-arm64.exe) |
 | Android | Android 10+ (API 29+) | [breeze.apk](https://github.com/sungminflut/breeze-releases/releases/latest/download/breeze.apk) |
-| Web | Browser SPA | [https://breeze-proxy-784145512042.us-central1.run.app/](https://breeze-proxy-784145512042.us-central1.run.app/) |
 
 ### Policy &amp; Support
 - [Homepage](https://sungminflut.github.io/breeze-releases/) · [Privacy Policy](https://sungminflut.github.io/breeze-releases/privacy.html) · [Terms of Service](https://sungminflut.github.io/breeze-releases/terms.html) · [Account Deletion](https://breeze-proxy-784145512042.us-central1.run.app/account/delete)
