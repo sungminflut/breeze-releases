@@ -1,99 +1,58 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.png">
-  <img alt="Breeze — 어떤 영상이든 켜자마자 실시간 한국어 자막과 자체 플레이어로" src="./assets/hero-light.png" width="100%">
-</picture>
-
-<br><br>
+<h1>Breeze Browser</h1>
+<p><strong>Watch any web video with real-time AI subtitles in 9 languages.</strong><br>
+Built-in ad &amp; popup blocking · Dual captions · Dark Incognito · Privacy-first zero-storage audio</p>
 
 <p>
-  <a href="https://github.com/sungminflut/breeze-releases/releases/latest"><img src="https://img.shields.io/github/v/release/sungminflut/breeze-releases?style=flat-square&label=Latest%20Release&color=2563eb" alt="Latest Release"></a>
-  <a href="https://github.com/sungminflut/breeze-releases/releases"><img src="https://img.shields.io/github/downloads/sungminflut/breeze-releases/total?style=flat-square&label=Downloads&color=0f766e" alt="Total Downloads"></a>
-  <a href="#바로-내려받기"><img src="https://img.shields.io/badge/Platforms-macOS%20%C2%B7%20Windows%20%C2%B7%20Android-1f2937?style=flat-square" alt="Platforms"></a>
+  <a href="https://breezebrowser.app/"><strong>Official Website (breezebrowser.app)</strong></a> ·
+  <a href="https://apps.microsoft.com/detail/9PMNM7G1244B"><strong>Microsoft Store (Windows)</strong></a> ·
+  <a href="https://breezebrowser.app/pricing">Pricing</a> ·
+  <a href="https://breezebrowser.app/support">Install Guide &amp; FAQ</a> ·
+  <a href="https://breezebrowser.app/ko/">한국어</a> ·
+  <a href="https://breezebrowser.app/ja/">日本語</a>
 </p>
 
 <p>
-  <strong>웹 영상 실시간 음성 인식 한국어 자막 &amp; 전용 플레이어 브라우저</strong><br>
-  <a href="https://sungminflut.github.io/breeze-releases/">공식 안내 페이지</a> ·
-  <a href="https://github.com/sungminflut/breeze-releases/releases/latest">최신 릴리스 노트</a> ·
-  <a href="#설치-및-실행-안내">설치 가이드</a> ·
-  <a href="https://github.com/sungminflut/breeze-releases/issues/new">문제 제보 (Issues)</a>
+  <a href="https://github.com/sungminflut/breeze-releases/releases/latest"><img src="https://img.shields.io/github/v/release/sungminflut/breeze-releases?style=flat-square&label=Latest%20Release&color=2563eb" alt="Latest Release"></a>
+  <a href="https://apps.microsoft.com/detail/9PMNM7G1244B"><img src="https://img.shields.io/badge/Microsoft%20Store-9PMNM7G1244B-0078D4?style=flat-square" alt="Microsoft Store"></a>
+  <img src="https://img.shields.io/badge/Languages-9%20Languages-0f766e?style=flat-square" alt="9 Languages">
+  <img src="https://img.shields.io/badge/Platforms-macOS%20%C2%B7%20Windows%20%C2%B7%20Android-1f2937?style=flat-square" alt="Platforms">
 </p>
 
 </div>
 
 ---
 
-## 바로 내려받기
+## Downloads (Latest Stable)
 
-아래 링크를 누르면 항상 **가장 최신 안정 버전**이 바로 내려받아집니다.
+| Platform | Requirements | Download | Notes |
+| :--- | :--- | :--- | :--- |
+| **Windows (Recommended)** | Windows 10 / 11 (x64 &amp; ARM64) | [**Get from Microsoft Store**](https://apps.microsoft.com/detail/9PMNM7G1244B) | Signed by Microsoft · Auto-updates |
+| **macOS (Universal)** | Apple Silicon (M1–M4) &amp; Intel | [**Breeze-mac-universal.dmg**](https://github.com/sungminflut/breeze-releases/releases/latest/download/Breeze-mac-universal.dmg) | 218 MB · In-app updater |
+| **Windows Standalone** | Windows 10 / 11 | [**x64 (.exe)**](https://github.com/sungminflut/breeze-releases/releases/latest/download/Breeze-win-x64.exe) · [**ARM64 (.exe)**](https://github.com/sungminflut/breeze-releases/releases/latest/download/Breeze-win-arm64.exe) | 120 MB / 115 MB |
+| **Android** | Android 10+ (API 29+) | [**breeze.apk**](https://github.com/sungminflut/breeze-releases/releases/latest/download/breeze.apk) | 10.4 MB · Signed APK |
+| **iOS** | iPhone &amp; iPad | *Coming soon to App Store* | Shares the same Google account credits |
 
-| 플랫폼 | 지원 환경 | 내려받기 | 용량 |
-| :--- | :--- | :--- | :---: |
-| **macOS** | Apple Silicon (M1–M4) · Intel (`Universal`) | [**Breeze-mac-universal.dmg**](https://github.com/sungminflut/breeze-releases/releases/latest/download/Breeze-mac-universal.dmg) | `218 MB` |
-| **Windows (x64)** | Windows 10 / 11 64-bit | [**Breeze-win-x64.exe**](https://github.com/sungminflut/breeze-releases/releases/latest/download/Breeze-win-x64.exe) | `120 MB` |
-| **Windows (ARM64)** | Snapdragon / ARM 기반 Windows PC | [**Breeze-win-arm64.exe**](https://github.com/sungminflut/breeze-releases/releases/latest/download/Breeze-win-arm64.exe) | `115 MB` |
-| **Android** | Android 10 이상 (`API 29+`) | [**breeze.apk**](https://github.com/sungminflut/breeze-releases/releases/latest/download/breeze.apk) | `10.4 MB` |
-
-> 버전별 변경 이력과 SHA-256 체크섬은 [**Releases**](https://github.com/sungminflut/breeze-releases/releases)에서 확인할 수 있습니다.  
-> **이용 안내 (오픈 베타)**: Google 계정으로 로그인하면 **하루 15분까지 무료**(한국 시각 00:00 초기화)로 자막을 켤 수 있습니다. 상용 DRM(Widevine 등) 및 YouTube 영상은 자체 플레이어에서 제외되며 원래 화면 위 자막으로 안내됩니다.
+> Verify every installer with [`SHA256SUMS.txt`](https://github.com/sungminflut/breeze-releases/releases/latest/download/SHA256SUMS.txt). First-run OS guides (macOS Gatekeeper, Windows SmartScreen, Android APK) are documented at [breezebrowser.app/support](https://breezebrowser.app/support).
 
 ---
 
-## 주요 기능
+## Why Breeze Browser?
 
-- **실시간 음성 인식 한국어 자막** — 자막 파일이 없는 영상이나 해외 생방송도 오디오를 실시간으로 인식해 한국어 자막을 띄웁니다. **원어 고정**(`자동 · 일본어 · 영어 · 한국어`), **글자 크기**, **위치**(`영상 안 · 아래 · 위`), **배경**, **원문 같이 보기**를 시청 중에 바로 바꿀 수 있습니다.
-- **100% 자체 Breeze 플레이어** — 사이트마다 제각각인 플레이어 대신 깔끔한 전용 플레이어에서 `HLS · DASH · MP4/WebM · 라이브 스트림`을 재생합니다. 재생 속도(`0.25x–4x`), 화질·오디오 트랙 전환, **항상 위(PiP)** 미니 창, **이어 보기**를 지원합니다.
-- **원클릭 인앱 업데이트** — 새 버전이 나오면 브라우저를 다시 찾을 필요 없이 **사이드바 → 계정 → `업데이트 확인`** 한 번으로 최신 버전을 설치합니다. 시청 기록과 북마크, 이어 보기 위치는 그대로 유지됩니다.
-- **프라이버시 우선 설계** — 시크릿 창을 닫으면 해당 세션의 쿠키·스토리지·캐시를 즉시 비우며, 방문 URL·오디오·자막은 서버에 보관하지 않습니다. 크래시 로그도 기기 밖으로 전송하지 않습니다.
-
----
-
-## 설치 및 실행 안내
-
-Breeze는 별도 유료 코드 서명 없이 개인 개발자 서명으로 배포되므로, **첫 실행 시 OS 보안 경고 한 번만 허용**해 주시면 이후에는 바로 실행됩니다.
-
-### macOS (`DMG`)
-1. `Breeze-mac-universal.dmg`를 열고 **`Breeze.app`** 을 **`응용 프로그램(Applications)`** 폴더로 끌어다 놓습니다.
-   > 앱 내 원클릭 업데이트를 사용하려면 반드시 `/Applications` 안에 설치해야 합니다.
-2. 처음 열 때 보안 경고가 표시되면 **`확인`** 을 누른 뒤, **`시스템 설정 → 개인정보 보호 및 보안`** 하단의 **`그래도 열기`** 를 선택하세요.
-3. 인앱 업데이트로 새 버전을 덮어쓴 뒤 로그인 정보 확인을 위해 키체인 접근 창이 뜨면 **`허용`** 을 눌러 주세요.
-
-### Windows (`NSIS 원클릭 설치`)
-1. `Breeze-win-x64.exe` *(ARM64 기기는 `Breeze-win-arm64.exe`)* 를 실행합니다.
-2. Windows SmartScreen의 *"Windows의 PC 보호"* 창이 열리면 **`추가 정보 → 실행`** 을 누르세요. 관리자 권한 없이 사용자 폴더에 설치된 뒤 자동으로 실행됩니다.
-
-### Android (`APK`)
-- `breeze.apk`를 연 뒤 시스템 안내에 따라 ***"이 출처 허용(출처를 알 수 없는 앱 설치)"*** 을 켜서 설치합니다. 이후 새 버전이 나오면 앱 내 **`계정 → 업데이트 확인`** 으로 바로 설치할 수 있습니다.
+- **9-language real-time AI subtitles:** English, Korean, Japanese, Traditional &amp; Simplified Chinese, Spanish, Portuguese (Brazil), French, and German — plus spoken source language pinning (`Auto · EN · JA · KO · ZH · ES`).
+- **Pre-buffered synced captions &amp; dual subtitles:** Original dialogue + translated captions side-by-side, customizable size/opacity/placement, `0.25x–4x` playback speed, ±10s seek, Picture-in-Picture, and fullscreen synced captions.
+- **Engine-level ad &amp; hijack-popup shield + Dark Incognito:** Native blocking with zero Chrome extension permissions; Dark Incognito wipes session history, cookies, and cache immediately on close.
+- **Privacy by architecture:** Browsing history, visited URLs, bookmarks, and local subtitle cache stay 100% on your device. Only audio while subtitles are active is streamed to Google Cloud Vertex AI; **0 bytes** are written to proxy disks or server logs, and user audio is never collected for AI model training. ([Privacy Policy](https://breezebrowser.app/privacy))
+- **Transparent credit model:** Free **15 credits every day** with Google Sign-In (no card required; VOD `1 credit/min`, Live `3 credits/min`, same-day rewinds &amp; native subtitles `0 credits`). Optional never-expiring Top-up (`$4.99` / 480 credits), Lite (`$4.99/mo`), and Pro (`$9.99/mo` or `$99.99/yr`). ([Pricing &amp; Calculator](https://breezebrowser.app/pricing))
+- **Honest compatibility policy:** Commercial DRM platforms (Widevine, FairPlay, PlayReady — e.g., Netflix, Disney+) and YouTube stay on their native web players rather than Breeze's custom player, displaying overlay captions where available.
 
 ---
 
-## 정책 · 계정 삭제 · 문제 제보
+## Guides, Comparisons &amp; Support
 
-- [**개인정보처리방침**](https://sungminflut.github.io/breeze-releases/privacy.html) · [**이용약관**](https://sungminflut.github.io/breeze-releases/terms.html) · [**웹 계정 삭제 페이지**](https://breeze-proxy-784145512042.us-central1.run.app/account/delete)
-- 재생되지 않는 사이트나 자막 오류, 설치 문제가 있다면 [**GitHub Issues**](https://github.com/sungminflut/breeze-releases/issues/new)에 **OS · 앱 버전 · 문제가 발생한 페이지 주소**를 남겨 주세요.
-
-<br>
-
-<details>
-<summary><strong>English Overview &amp; Quick Downloads</strong></summary>
-
-### About Breeze
-**Breeze** is a media-first browser with **real-time Korean AI captions** and a **unified native video player** (`HLS`, `DASH`, `MP4/WebM`, and live streams).
-Sign in with Google for **15 minutes/day free** captions (resets at 00:00 KST). DRM-protected streams and YouTube stay on their original page player with overlay captions.
-
-### Downloads (Latest Release)
-
-| Platform | Target | Download |
-| :--- | :--- | :--- |
-| macOS | Apple Silicon · Intel (Universal) | [Breeze-mac-universal.dmg](https://github.com/sungminflut/breeze-releases/releases/latest/download/Breeze-mac-universal.dmg) |
-| Windows | x64 (Windows 10/11) | [Breeze-win-x64.exe](https://github.com/sungminflut/breeze-releases/releases/latest/download/Breeze-win-x64.exe) |
-| Windows | ARM64 | [Breeze-win-arm64.exe](https://github.com/sungminflut/breeze-releases/releases/latest/download/Breeze-win-arm64.exe) |
-| Android | Android 10+ (API 29+) | [breeze.apk](https://github.com/sungminflut/breeze-releases/releases/latest/download/breeze.apk) |
-
-### Policy &amp; Support
-- [Homepage](https://sungminflut.github.io/breeze-releases/) · [Privacy Policy](https://sungminflut.github.io/breeze-releases/privacy.html) · [Terms of Service](https://sungminflut.github.io/breeze-releases/terms.html) · [Account Deletion](https://breeze-proxy-784145512042.us-central1.run.app/account/delete)
-
-</details>
+- **Website (9 Languages):** [breezebrowser.app](https://breezebrowser.app/) · [한국어](https://breezebrowser.app/ko/) · [日本語](https://breezebrowser.app/ja/)
+- **Comparison:** [Breeze Browser vs Chrome Subtitle Extensions](https://breezebrowser.app/vs/chrome-subtitle-extensions) ([한국어](https://breezebrowser.app/ko/vs/chrome-subtitle-extensions) · [日本語](https://breezebrowser.app/ja/vs/chrome-subtitle-extensions))
+- **Guides:** [How to Watch Foreign Web Videos with Live Subtitles](https://breezebrowser.app/guides/live-subtitles-foreign-videos) · [Japanese Videos with Real-Time Subtitles](https://breezebrowser.app/guides/japanese-video-subtitles)
+- **Bug Reports &amp; Feedback:** [GitHub Issues](https://github.com/sungminflut/breeze-releases/issues/new) · `support@breezebrowser.app`
+- **Legal:** [Privacy Policy](https://breezebrowser.app/privacy) · [Terms of Service](https://breezebrowser.app/terms) · [Refund Policy](https://breezebrowser.app/refund)
